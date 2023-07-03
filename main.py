@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 import youtube_dl
 load_dotenv()
-DISCORD_TOKEN = os.getenv("MTEyNTM4MTAzMzA0MzQ0Nzg0OA.GpdDAr.TsOIxnxdw-iZ_-KPYmlSXsL7Ou5b9Ier0UIfIU")
+DISCORD_TOKEN = os.getenv("PUT YOUR TOKEN HERE")
 
 intents = discord.Intents().all()
 clients = discord.Client(intents = intents)
@@ -100,4 +100,4 @@ async def stop(ctx):
       await ctx.send("The bot isn't playing any sound")
 
 if __name__ == "__main__":
-   bot.run("MTEyNTM4MTAzMzA0MzQ0Nzg0OA.GpdDAr.TsOIxnxdw-iZ_-KPYmlSXsL7Ou5b9Ier0UIfIU")
+   bot.run("ALSO YOUR TOKEN HERE")
